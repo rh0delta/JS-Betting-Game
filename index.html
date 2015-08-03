@@ -2,10 +2,20 @@
 <html>
 <head>
 	<title>JS Betting Game</title>
-	<script type="text/javascript" src="/javascript/application.js"></script>
+	<script type="text/javascript" src="javascript/application.js"></script>
 </head>
 <body>
 	<h1>Javascript Betting? What up with that!</h1>
+
 	<h3>You only have $100 use it wisely!</h3>
+	<div>
+		<label>Total Monies: $</label>
+		<label id="total_monies">100</label>
+	</div>
+	<div>
+		<label>Your Bet: $</label>
+		<label id="bet"></label>
+	</div>
+	<button onclick="timeToBet()">Play Game!</button>
 </body>
 </html>
